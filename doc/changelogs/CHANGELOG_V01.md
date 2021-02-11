@@ -1,6 +1,6 @@
 <a id="0.0.1"></a>
 
-## 2021-02-11, Version 0.0.1, @mattia
+## 2021-02-11, Version 0.0.1, @mattia.lau
 
 ### Notable Changes
 
@@ -11,7 +11,7 @@
 
 <a id="0.0.2"></a>
 
-## 2021-02-11, Version 0.0.2, @mattia
+## 2021-02-11, Version 0.0.2, @mattia.lau
 
 ### Notable Changes
 
@@ -19,7 +19,7 @@
 
 <a id="0.0.2"></a>
 
-## 2021-02-11, Version 0.0.3 (Bug Fix), @mattia
+## 2021-02-11, Version 0.0.3 (Bug Fix), @mattia.lau
 
 ### Bug fix
 
