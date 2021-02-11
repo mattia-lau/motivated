@@ -1,6 +1,6 @@
 {
   "name": "motivated",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./build/index.js",
   "module": "./build/index.ts.js",
   "license": "MIT",
@@ -32,6 +32,8 @@
   "dependencies": {
     "invariant": "^2.2.4",
     "lodash": "^4.17.20",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "styled-components": "^5.2.1"
   },
   "peerDependencies": {
