@@ -1,0 +1,6 @@
+.storybook
+stories
+doc
+*.md
+node_modules
+src

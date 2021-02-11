@@ -1,0 +1,4 @@
+build
+.storybook
+doc
+node_modules

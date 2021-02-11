@@ -1,0 +1,58 @@
+{
+  "name": "motivated",
+  "version": "0.0.1",
+  "main": "./build/index.js",
+  "module": "./build/index.ts.js",
+  "license": "MIT",
+  "author": {
+    "name": "mattia.lau",
+    "url": "https://github.com/mattia-lau"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/react": "^6.1.17",
+    "@types/invariant": "^2.2.34",
+    "@types/lodash": "^4.14.168",
+    "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.7",
+    "babel-loader": "^8.2.2",
+    "fork-ts-checker-webpack-plugin": "^6.1.0",
+    "husky": "^5.0.9",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.4"
+  },
+  "dependencies": {
+    "invariant": "^2.2.4",
+    "lodash": "^4.17.20",
+    "styled-components": "^5.2.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "scripts": {
+    "precommit": "prettier --write .",
+    "prebuild": "rimraf build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "rollup -c"
+  },
+  "bugs": {
+    "url": "https://github.com/mattia-lau/motivated/issues"
+  },
+  "homepage": "https://github.com/mattia-lau/motivated#readme",
+  "keywords": [
+    "react",
+    "react component",
+    "styled component",
+    "ui library"
+  ]
+}
