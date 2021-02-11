@@ -1,14 +1,13 @@
 import React from "react";
-import { Col, Container, Row } from "../src";
+import { Col, Row } from "../src";
 
 export default {
   title: "Grid",
-  component: Container,
 };
 
 export const Template = () => {
   return (
-    <Container>
+    <div>
       <Row gutter={[24, 24]}>
         <Col>Col-1</Col>
         <Col>Col-2</Col>
@@ -17,7 +16,7 @@ export const Template = () => {
         <Col span={4}>Col-1</Col>
         <Col span={4}>Col-2</Col>
       </Row>
-    </Container>
+    </div>
   );
 };
 

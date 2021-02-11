@@ -12,6 +12,23 @@ yarn add motivated
 npm install motivated
 ```
 
+## Usage
+
+```tsx
+// App.tsx
+import { ThemeProvider, theme } from "motivated";
+
+const App: React.FC = () => {
+  return (
+    <ThemeProvider theme={theme.light}>
+      {
+        // Children
+      }
+    </ThemeProvider>
+  );
+};
+```
+
 ## Supporting Components
 
 - Theme (Only default theme in this moment)
@@ -33,4 +50,4 @@ npm install motivated
 
 ## Contribute Step
 
-<a href="./CONTRIBUTING.md">Check the rules</a>.
+<a href="https://github.com/mattia-lau/motivated/blob/master/CONTRIBUTING.md">Check the rules</a>.

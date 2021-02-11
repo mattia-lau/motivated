@@ -1,6 +1,5 @@
 import React from "react";
-import { ThemeProvider } from "styled-components";
-import { Form, FormItem, Input, theme } from "../src";
+import { Form, FormItem, Input, theme, ThemeProvider } from "../src";
 
 export default {
   title: "Form Control",
