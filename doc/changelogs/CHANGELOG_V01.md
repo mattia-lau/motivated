@@ -16,3 +16,11 @@
 ### Notable Changes
 
 - Add Custom ThemeProvider
+
+<a id="0.0.2"></a>
+
+## 2021-02-11, Version 0.0.3 (Bug Fix), @mattia
+
+### Bug fix
+
+- Row use React.Children.count insteadof (props.children as any[]).length

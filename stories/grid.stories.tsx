@@ -16,6 +16,9 @@ export const Template = () => {
         <Col span={4}>Col-1</Col>
         <Col span={4}>Col-2</Col>
       </Row>
+      <Row gutter={[24, 24]} justify="center">
+        <Col>Col-1</Col>
+      </Row>
     </div>
   );
 };

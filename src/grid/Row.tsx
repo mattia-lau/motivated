@@ -24,7 +24,7 @@ export const Row: React.FC<RowProps> = (props) => {
       <StyledRow justify={justify} align={align} flexDirection={direction}>
         {React.Children.map(children, (child: React.ReactElement) => {
           if (!child.props.span) {
-            return React.cloneElement(child, { span: 24 / (children as any[]).length });
+            return React.cloneElement(child, { span: 24 / React.Children.count(children) });
           }
           return child;
         })}
